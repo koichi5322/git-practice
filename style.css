@@ -7,3 +7,17 @@ body {
   height: 100%;
   box-sizing: border-box;
 }
+
+.button {
+  display: inline-block;
+  padding: 0.8em 1.2em;
+  background: #777;
+  color: #fff;
+  text-align: none;
+  border-radius: 8px;
+  transition: 0.15s ease;
+  text-decoration: none;
+}
+.button:hover {
+  background: #8f8e8e;
+}

@@ -21,3 +21,16 @@ body {
 .button:hover {
   background: #8f8e8e;
 }
+
+.hero {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  padding: 0 min(5%, 150px);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.hero h1 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 16px;
+}
